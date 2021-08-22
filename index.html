@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Corey Rowsell Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!-- link to css-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- link to fonts -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&display=swap" rel="stylesheet">
+
+
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel"stylesheet">
+
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+              <!--Get my own logo-->
+                <img src="" alt="Corey Rowsell's logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#works" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Corey Rowsell</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Developer/IT</p>
+            <img src="img/dev-jane-01.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Jr.  Software Developer</h3>
+                    <p>Intermediate level programmer, with two revelant years of programming languages, including C, Java, Python, C++, JavaScript, and Bash.
+                      Experience of systems-level programming, including fundamental OS concepts, procedures, primitive data types, and user-defined types.
+                      Knowledge of object-oriented software development. </p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Novice IT Technician</h3>
+                    <p>Starting out in a career in Information Technologies. Always had an intrest for the field. Previous expericence inclues a Co-op at Best Buy where I learned to flash and reset non-working computers. Currently wokring at Neolore Technologies as a level 1 Tech.</p>
+                </div> <!-- / service -->
+
+                <!-- CAN ADD A THIRD ONE EVENTUALLY
+                <div class="service">
+                    <h3></h3>
+                    <p></p>
+                </div>   service -->
+            </div> <!-- / services -->
+
+            <a href="#works" class="btn">My Work</a>
+        </section>
+
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+          <h2 class="section__title section__title--about">Who I am</h2>
+          <p class="section__subtitle section__subtitle--about">Graduate Student & IT tech based out of Ottawa, Canada</p>
+
+          <div class="about-me__body">
+            <p>Up and coming, recent, Computer Science graduate or Junior Software Developer with two years expericence exploring for new opportunities. Exposure in consulting with clients, writing code, solving compatibility issues, eliminating technical problems, and collaborating with the development team. Flexible in learning new skills, understanding my limits, and getting work done with time sensitive deadlines. I am a hard worker, who does not easily give up when tasked with a project and will continue working to improve upon mistakes.</p>
+            <p>Also, exploring the possiblilites in the IT world. Learning to troubleshoot and fix the computer system promblems of tommorrow.</p>
+          </div>
+
+          <img src="img/dev-jane-02.jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-works" id="works">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            <div class="portfolios">
+                <div class="portfolio">
+                  <!--how to make the image a hyperlink-->
+                  <a href="https://github.com/corze900/First_Year_University.git" class="portfolio__item">
+                      <img src="img/portfolio-01.jpeg" alt="" class="portfolio__img">
+                  </a>
+                    <p>First Year University, Python.</p>
+                </div> <!-- project -->
+
+                <div class="portfolio">
+                  <a href="https://github.com/corze900/Second_Year_University.git" class="portfolio__item">
+                      <img src="img/portfolio-03.jpeg" alt="" class="portfolio__img">
+                  </a>
+                    <p>Second Year University, C.</p>
+                </div> <!-- project -->
+
+                <div class="portfolio">
+                  <a href="https://github.com/corze900/Third_Year_University.git" class="portfolio__item">
+                      <img src="img/portfolio-04.jpeg" alt="" class="portfolio__img">
+                  </a>
+                    <p>Third Year University, Haskel and DMS.</p>
+                </div> <!-- project -->
+
+                <div class="portfolio">
+                  <a href="https://github.com/corze900/Forth_Year_University.git" class="portfolio__item">
+                      <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+                  </a>
+                    <p>Forth Year University, birdcoursefinder app</p>
+                </div> <!-- project -->
+                <div class="portfolio">
+                  <a href="https://github.com/corze900/CplusplusBook.git" class="portfolio__item">
+                      <img src="img/portfolio-02.jpeg" alt="" class="portfolio__img">
+                  </a>
+                    <p>Codding projects from Programming: Principles and Practice Using C++ by Bjarne Stroustrup</p>
+                </div> <!-- project -->
+                <div class="portfolio">
+                  <a href="https://github.com/corze900/Udemy_programing_practice.git" class="portfolio__item">
+                      <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+                  </a>
+                    <p>Udemy Programing Practice</p>
+                </div> <!-- project -->
+                <div class="portfolio">
+                  <a href="https://github.com/corze900/Coding_for_fun.git" class="portfolio__item">
+                      <img src="img/portfolio-06.jpeg" alt="" class="portfolio__img">
+                  </a>
+                    <p>Python Side Projects</p>
+                </div> <!-- project -->
+            </div>
+        </section>
+
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:coreyrowsell@gmail.com" class="footer__link">coreyrowsell@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/corze900">
+                <!--get this from font awesome and just need to redirect-->
+                <i class="fab fa-github-square"></i></a></li>
+
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/corey-rowsell-78794420a/">
+                <i class="fab fa-linkedin"></i></a></li>
+
+                <!-- ADD THIRD ONE WHEN READY
+                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com">c</a></li>
+              -->
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>
